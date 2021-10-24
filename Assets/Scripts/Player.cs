@@ -5,14 +5,14 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class Player : MonoBehaviour
 {
+    private Animator _anim;
     private NavMeshAgent _agent;
-    // Start is called before the first frame update
     void Start()
     {
+        _anim = GetComponentInChildren<Animator>();
         _agent = GetComponent<NavMeshAgent>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -23,5 +23,8 @@ public class Player : MonoBehaviour
                 _agent.SetDestination(hitInfo.point);
             }
         }
+
+        bool walk = _agent.remainingDistance == 0 ? false : true;
+        _anim.SetBool("Walk", walk);
     }
 }
