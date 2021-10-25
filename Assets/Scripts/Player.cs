@@ -6,21 +6,35 @@ using UnityEngine.AI;
 public class Player : MonoBehaviour
 {
     private Animator _anim;
+    private bool _thrownCoin;
     private NavMeshAgent _agent;
+    [SerializeField] private AudioClip _coinSound;
+    [SerializeField] private GameObject _coinPrefab;
     void Start()
     {
-        _anim = GetComponentInChildren<Animator>();
         _agent = GetComponent<NavMeshAgent>();
+        _anim = GetComponentInChildren<Animator>();
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        bool clickedLeftMouseButton = Input.GetMouseButtonDown(0);
+        bool clickedRightMouseButton = Input.GetMouseButtonDown(1);
+        if (clickedLeftMouseButton == true || clickedRightMouseButton == true && _thrownCoin == false)
         {
             RaycastHit hitInfo;
             if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo))
             {
-                _agent.SetDestination(hitInfo.point);
+                if(clickedLeftMouseButton == true)
+                    _agent.SetDestination(hitInfo.point);
+                else
+                {
+                    _thrownCoin = true;
+                    GameObject coin = Instantiate(_coinPrefab, hitInfo.point, Quaternion.identity);
+                    coin.transform.position = new Vector3(coin.transform.position.x, -2, coin.transform.position.z);
+                    AudioSource.PlayClipAtPoint(_coinSound, Camera.main.transform.position, 0.5f);
+                    DistractClosestGuard(hitInfo.point);
+                }
             }
         }
 
@@ -35,5 +49,23 @@ public class Player : MonoBehaviour
     {
         _agent.speed = 0;
         _anim.SetBool("Walk", false);
+    }
+
+    public void DistractClosestGuard(Vector3 pos)
+    {
+        GameObject[] allGuards = GameObject.FindGameObjectsWithTag("Guard1");
+        GameObject closestGuard = null;
+        float closestDistance = 1000;
+        float distance;
+        foreach(var guard in allGuards)
+        {
+            distance = Vector3.Distance(pos, guard.transform.position);
+            if(distance < closestDistance)
+            {
+                closestDistance = distance;
+                closestGuard = guard.gameObject;
+            }
+        }
+        closestGuard.GetComponent<GuardAI>().LookAtCoin(pos);
     }
 }

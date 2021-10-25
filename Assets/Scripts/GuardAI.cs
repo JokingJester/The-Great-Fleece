@@ -7,10 +7,11 @@ public class GuardAI : MonoBehaviour
 {
     private Animator _anim;
     private bool _reverse;
-    private bool _stopMoving;
+    public bool _stopMoving;
     private int _currentTarget;
     [SerializeField] private List<Transform> _waypoints;
     private NavMeshAgent _agent;
+    private Vector3 _coinDirection;
 
     void Start()
     {
@@ -22,6 +23,17 @@ public class GuardAI : MonoBehaviour
 
     void Update()
     {
+        if (_anim.GetBool("Alerted") == true)
+        {
+            _stopMoving = true;
+            var direction = _coinDirection - transform.position;
+            Quaternion rotation = Quaternion.LookRotation(direction, Vector3.up);
+            rotation.x = 0;
+            rotation.z = 0;
+            transform.rotation = rotation;
+        }
+
+
         if (_stopMoving == true)
             return;
         if(_waypoints.Count > 1 && _waypoints[_currentTarget] != null)
@@ -38,6 +50,17 @@ public class GuardAI : MonoBehaviour
 
                 _currentTarget = _reverse == false ? _currentTarget = _currentTarget + 1 : _currentTarget = _currentTarget - 1;
             }
+        }
+    }
+
+    public void LookAtCoin(Vector3 pos)
+    {
+        if(_anim != null)
+        {
+            _coinDirection = pos;
+            _anim.SetTrigger("Alert");
+            _anim.SetBool("Alerted", true);
+            _agent.SetDestination(transform.position);
         }
     }
 
