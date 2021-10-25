@@ -16,7 +16,7 @@ public class GuardAI : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
-        if (_waypoints.Count > 1)
+        if (_waypoints.Count > 1 && _anim != null)
             _anim.SetBool("Walk", true);
     }
 

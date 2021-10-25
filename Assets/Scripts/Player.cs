@@ -24,7 +24,16 @@ public class Player : MonoBehaviour
             }
         }
 
-        bool walk = _agent.remainingDistance == 0 ? false : true;
-        _anim.SetBool("Walk", walk);
+        if(_agent.speed != 0)
+        {
+            bool walk = _agent.remainingDistance == 0 ? false : true;
+            _anim.SetBool("Walk", walk);
+        }
+    }
+
+    public void StopMoving()
+    {
+        _agent.speed = 0;
+        _anim.SetBool("Walk", false);
     }
 }
