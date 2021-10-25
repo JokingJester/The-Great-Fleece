@@ -5,6 +5,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class GuardAI : MonoBehaviour
 {
+    private Animator _anim;
     private bool _reverse;
     private bool _stopMoving;
     private int _currentTarget;
@@ -13,7 +14,10 @@ public class GuardAI : MonoBehaviour
 
     void Start()
     {
+        _anim = GetComponent<Animator>();
         _agent = GetComponent<NavMeshAgent>();
+        if (_waypoints.Count > 1)
+            _anim.SetBool("Walk", true);
     }
 
     void Update()
@@ -39,9 +43,13 @@ public class GuardAI : MonoBehaviour
 
     IEnumerator IdleRoutine()
     {
+        if(_anim != null)
+            _anim.SetBool("Walk", false);
         _stopMoving = true;
         _reverse = !_reverse;
         yield return new WaitForSeconds(Random.Range(2, 5));
+        if (_anim != null)
+            _anim.SetBool("Walk", true);
         _stopMoving = false;
     }
 }
