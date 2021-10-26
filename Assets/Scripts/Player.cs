@@ -68,6 +68,7 @@ public class Player : MonoBehaviour
                 closestGuard = guard.gameObject;
             }
         }
+        if(closestGuard != null)
         closestGuard.GetComponent<GuardAI>().LookAtCoin(pos);
     }
 
