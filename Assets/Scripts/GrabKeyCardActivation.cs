@@ -10,6 +10,7 @@ public class GrabKeyCardActivation : MonoBehaviour
         if(other.tag == "Player")
         {
             Destroy(GetComponent<BoxCollider>());
+            GameManager.Instance.HasCard = true;
             _cutscene.SetActive(true);
             StartCoroutine(DisableCutsceneRoutine());
         }
