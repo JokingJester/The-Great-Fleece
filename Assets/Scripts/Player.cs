@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     {
         bool clickedLeftMouseButton = Input.GetMouseButtonDown(0);
         bool clickedRightMouseButton = Input.GetMouseButtonDown(1);
-        if (clickedLeftMouseButton == true || clickedRightMouseButton == true && _thrownCoin == false)
+        if (clickedLeftMouseButton == true && _agent.speed != 0 || clickedRightMouseButton == true && _thrownCoin == false)
         {
             RaycastHit hitInfo;
             if(Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo))
@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
                     _agent.SetDestination(hitInfo.point);
                 else
                 {
+                    StartCoroutine(ThrowRoutine());
                     _thrownCoin = true;
                     GameObject coin = Instantiate(_coinPrefab, hitInfo.point, Quaternion.identity);
                     coin.transform.position = new Vector3(coin.transform.position.x, -2, coin.transform.position.z);
@@ -48,6 +49,7 @@ public class Player : MonoBehaviour
     public void StopMoving()
     {
         _agent.speed = 0;
+        _agent.SetDestination(transform.position);
         _anim.SetBool("Walk", false);
     }
 
@@ -67,5 +69,13 @@ public class Player : MonoBehaviour
             }
         }
         closestGuard.GetComponent<GuardAI>().LookAtCoin(pos);
+    }
+
+    IEnumerator ThrowRoutine()
+    {
+        StopMoving();
+        _anim.SetTrigger("Throw");
+        yield return new WaitForSeconds(1.4f);
+        _agent.speed = 6;
     }
 }
