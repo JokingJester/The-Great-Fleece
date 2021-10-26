@@ -10,6 +10,7 @@ public class VoiceOverTrigger : MonoBehaviour
         if(other.tag == "Player")
         {
             Camera.main.transform.GetComponent<AudioSource>().PlayOneShot(_audioClip, 0.7f);
+            Destroy(GetComponent<BoxCollider>());
         }
     }
 }
