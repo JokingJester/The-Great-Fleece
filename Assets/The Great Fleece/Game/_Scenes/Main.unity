@@ -3671,6 +3671,8 @@ PlayableDirector:
     value: {fileID: 316801879}
   - key: {fileID: -6425641950768559892, guid: 6fd846b3268a2724eb08dc29dda8b0f0, type: 2}
     value: {fileID: 1363127320}
+  - key: {fileID: -2256533073229663893, guid: 6fd846b3268a2724eb08dc29dda8b0f0, type: 2}
+    value: {fileID: 34044375}
   m_ExposedReferences:
     m_References:
     - 07640f11171e79f4b84ba1f3e2553ff0: {fileID: 984105931}
@@ -22702,6 +22704,49 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 820203500}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &826864244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826864246}
+  - component: {fileID: 826864245}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &826864245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826864244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b4a5fbfefdf2541af00dcdae52e123, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &826864246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826864244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &827914443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34229,6 +34274,7 @@ GameObject:
   - component: {fileID: 1460912867}
   - component: {fileID: 1460912866}
   - component: {fileID: 1460912865}
+  - component: {fileID: 1460912868}
   m_Layer: 0
   m_Name: Win_Cut_Scene_Zone
   m_TagString: Untagged
@@ -34300,7 +34346,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460912863}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 3.6767442, y: 0.99660206, z: 1.5074341}
@@ -34313,6 +34359,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460912863}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1460912868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460912863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc41037f36d7e714dba4316353dffb09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _winCutscene: {fileID: 176994598}
 --- !u!1001 &1464570826
 PrefabInstance:
   m_ObjectHideFlags: 0
