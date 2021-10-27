@@ -14,7 +14,6 @@ public class LoadLevel : MonoBehaviour
 
     private IEnumerator LoadMainLevel()
     {
-        yield return new WaitForSeconds(0.4f);
         AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(2);
 
         while (!asyncOperation.isDone)

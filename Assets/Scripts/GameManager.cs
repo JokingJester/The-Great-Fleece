@@ -19,12 +19,14 @@ public class GameManager : MonoBehaviour
     }
     public bool HasCard { get; set; }
     public PlayableDirector _playableDirector;
+    public bool skippedIntro;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
             _playableDirector.time = 61.60f;
+            skippedIntro = true;
         }
     }
     private void Awake()
