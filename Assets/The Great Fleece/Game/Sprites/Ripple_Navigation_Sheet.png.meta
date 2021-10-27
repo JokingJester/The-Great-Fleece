@@ -179,6 +179,183 @@ TextureImporter:
   - first:
       213: 21300116
     second: RippleSheet_58
+  - first:
+      213: 8762202792270567983
+    second: Ripple_Navigation_Sheet_0
+  - first:
+      213: -1250968769646114143
+    second: Ripple_Navigation_Sheet_1
+  - first:
+      213: 8842244531503461848
+    second: Ripple_Navigation_Sheet_2
+  - first:
+      213: 3187032792835391484
+    second: Ripple_Navigation_Sheet_3
+  - first:
+      213: -343901446267434096
+    second: Ripple_Navigation_Sheet_4
+  - first:
+      213: 1753274245684607352
+    second: Ripple_Navigation_Sheet_5
+  - first:
+      213: -4857789946365162486
+    second: Ripple_Navigation_Sheet_6
+  - first:
+      213: -6927695028094392691
+    second: Ripple_Navigation_Sheet_7
+  - first:
+      213: 8395295619310945066
+    second: Ripple_Navigation_Sheet_8
+  - first:
+      213: 1351931039834667468
+    second: Ripple_Navigation_Sheet_9
+  - first:
+      213: -8325626178838037604
+    second: Ripple_Navigation_Sheet_10
+  - first:
+      213: 5490476335501246283
+    second: Ripple_Navigation_Sheet_11
+  - first:
+      213: -2356026387194143416
+    second: Ripple_Navigation_Sheet_12
+  - first:
+      213: 6664120186414387794
+    second: Ripple_Navigation_Sheet_13
+  - first:
+      213: 6532217793204472296
+    second: Ripple_Navigation_Sheet_14
+  - first:
+      213: 5156707379344081770
+    second: Ripple_Navigation_Sheet_15
+  - first:
+      213: -4346086307020500732
+    second: Ripple_Navigation_Sheet_16
+  - first:
+      213: -8605446514050587300
+    second: Ripple_Navigation_Sheet_17
+  - first:
+      213: 6540622084897940796
+    second: Ripple_Navigation_Sheet_18
+  - first:
+      213: -1236450224102252675
+    second: Ripple_Navigation_Sheet_19
+  - first:
+      213: -9066582963527202561
+    second: Ripple_Navigation_Sheet_20
+  - first:
+      213: 4430042762008629856
+    second: Ripple_Navigation_Sheet_21
+  - first:
+      213: 2945473331928478946
+    second: Ripple_Navigation_Sheet_22
+  - first:
+      213: 1502728138632627085
+    second: Ripple_Navigation_Sheet_23
+  - first:
+      213: -3434455579229495962
+    second: Ripple_Navigation_Sheet_24
+  - first:
+      213: 2319462235608466108
+    second: Ripple_Navigation_Sheet_25
+  - first:
+      213: 5312314054748204903
+    second: Ripple_Navigation_Sheet_26
+  - first:
+      213: -7261119220174893992
+    second: Ripple_Navigation_Sheet_27
+  - first:
+      213: -2412379971273077818
+    second: Ripple_Navigation_Sheet_28
+  - first:
+      213: 8398063137162923875
+    second: Ripple_Navigation_Sheet_29
+  - first:
+      213: 7492543042990503598
+    second: Ripple_Navigation_Sheet_30
+  - first:
+      213: 4079161635150698170
+    second: Ripple_Navigation_Sheet_31
+  - first:
+      213: -4204366071335225980
+    second: Ripple_Navigation_Sheet_32
+  - first:
+      213: 626254101414711499
+    second: Ripple_Navigation_Sheet_33
+  - first:
+      213: -3035924244957276032
+    second: Ripple_Navigation_Sheet_34
+  - first:
+      213: 2227502469052567358
+    second: Ripple_Navigation_Sheet_35
+  - first:
+      213: -2285318961559211290
+    second: Ripple_Navigation_Sheet_36
+  - first:
+      213: 784079884233772303
+    second: Ripple_Navigation_Sheet_37
+  - first:
+      213: -581214937390221273
+    second: Ripple_Navigation_Sheet_38
+  - first:
+      213: 6170150249257710788
+    second: Ripple_Navigation_Sheet_39
+  - first:
+      213: -1873572489221007605
+    second: Ripple_Navigation_Sheet_40
+  - first:
+      213: 6023421045052935796
+    second: Ripple_Navigation_Sheet_41
+  - first:
+      213: -6959546224030586067
+    second: Ripple_Navigation_Sheet_42
+  - first:
+      213: -8980331179435770806
+    second: Ripple_Navigation_Sheet_43
+  - first:
+      213: -5060975147735162869
+    second: Ripple_Navigation_Sheet_44
+  - first:
+      213: -8787235111361826941
+    second: Ripple_Navigation_Sheet_45
+  - first:
+      213: 5694425785353823582
+    second: Ripple_Navigation_Sheet_46
+  - first:
+      213: -1906543588275632375
+    second: Ripple_Navigation_Sheet_47
+  - first:
+      213: -6571807455874183188
+    second: Ripple_Navigation_Sheet_48
+  - first:
+      213: -6772167772154017545
+    second: Ripple_Navigation_Sheet_49
+  - first:
+      213: -1838522291875282691
+    second: Ripple_Navigation_Sheet_50
+  - first:
+      213: -223689234089965193
+    second: Ripple_Navigation_Sheet_51
+  - first:
+      213: 1881498509928535003
+    second: Ripple_Navigation_Sheet_52
+  - first:
+      213: 2219808354012783895
+    second: Ripple_Navigation_Sheet_53
+  - first:
+      213: 4860593148737221278
+    second: Ripple_Navigation_Sheet_54
+  - first:
+      213: -5129568335126775744
+    second: Ripple_Navigation_Sheet_55
+  - first:
+      213: 4100835229964439258
+    second: Ripple_Navigation_Sheet_56
+  - first:
+      213: 8775922122057060225
+    second: Ripple_Navigation_Sheet_57
+  - first:
+      213: 1605372012980003699
+    second: Ripple_Navigation_Sheet_58
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -218,7 +395,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -251,7 +428,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -263,7 +440,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
@@ -287,7 +464,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
@@ -299,12 +476,12 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RippleSheet_0
+      name: Ripple_Navigation_Sheet_0
       rect:
         serializedVersion: 2
         x: 256
@@ -318,14 +495,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: f2a1933f309999970800000000000000
+      internalID: 8762202792270567983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_1
+      name: Ripple_Navigation_Sheet_1
       rect:
         serializedVersion: 2
         x: 512
@@ -339,14 +516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 1aac22c288aa3aee0800000000000000
+      internalID: -1250968769646114143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_2
+      name: Ripple_Navigation_Sheet_2
       rect:
         serializedVersion: 2
         x: 768
@@ -360,14 +537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 8d5776d9d86f5ba70800000000000000
+      internalID: 8842244531503461848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_3
+      name: Ripple_Navigation_Sheet_3
       rect:
         serializedVersion: 2
         x: 1024
@@ -381,14 +558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: cff7970807d9a3c20800000000000000
+      internalID: 3187032792835391484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_4
+      name: Ripple_Navigation_Sheet_4
       rect:
         serializedVersion: 2
         x: 1280
@@ -402,14 +579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 09b8c79e4773a3bf0800000000000000
+      internalID: -343901446267434096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_5
+      name: Ripple_Navigation_Sheet_5
       rect:
         serializedVersion: 2
         x: 1536
@@ -423,14 +600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 8793fdf13a1e45810800000000000000
+      internalID: 1753274245684607352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_6
+      name: Ripple_Navigation_Sheet_6
       rect:
         serializedVersion: 2
         x: 1792
@@ -444,14 +621,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: a0cc07d08c9a59cb0800000000000000
+      internalID: -4857789946365162486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_7
+      name: Ripple_Navigation_Sheet_7
       rect:
         serializedVersion: 2
         x: 0
@@ -465,14 +642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: d86a1329312ebdf90800000000000000
+      internalID: -6927695028094392691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_8
+      name: Ripple_Navigation_Sheet_8
       rect:
         serializedVersion: 2
         x: 256
@@ -486,14 +663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: a230c65b2e4128470800000000000000
+      internalID: 8395295619310945066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_9
+      name: Ripple_Navigation_Sheet_9
       rect:
         serializedVersion: 2
         x: 512
@@ -507,14 +684,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: cc97b2e2e1603c210800000000000000
+      internalID: 1351931039834667468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_10
+      name: Ripple_Navigation_Sheet_10
       rect:
         serializedVersion: 2
         x: 768
@@ -528,14 +705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: c9b7aa5f91f657c80800000000000000
+      internalID: -8325626178838037604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_11
+      name: Ripple_Navigation_Sheet_11
       rect:
         serializedVersion: 2
         x: 1024
@@ -549,14 +726,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: b4f7d392327123c40800000000000000
+      internalID: 5490476335501246283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_12
+      name: Ripple_Navigation_Sheet_12
       rect:
         serializedVersion: 2
         x: 1280
@@ -570,14 +747,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 84d98ddcb76bd4fd0800000000000000
+      internalID: -2356026387194143416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_13
+      name: Ripple_Navigation_Sheet_13
       rect:
         serializedVersion: 2
         x: 1536
@@ -591,14 +768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 2525db36006bb7c50800000000000000
+      internalID: 6664120186414387794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_14
+      name: Ripple_Navigation_Sheet_14
       rect:
         serializedVersion: 2
         x: 1792
@@ -612,14 +789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 8e94077497917aa50800000000000000
+      internalID: 6532217793204472296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_15
+      name: Ripple_Navigation_Sheet_15
       rect:
         serializedVersion: 2
         x: 0
@@ -633,14 +810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: a6380744a0e409740800000000000000
+      internalID: 5156707379344081770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_16
+      name: Ripple_Navigation_Sheet_16
       rect:
         serializedVersion: 2
         x: 256
@@ -654,14 +831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 4019ad2c7899fa3c0800000000000000
+      internalID: -4346086307020500732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_17
+      name: Ripple_Navigation_Sheet_17
       rect:
         serializedVersion: 2
         x: 512
@@ -675,14 +852,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: c5524643dff439880800000000000000
+      internalID: -8605446514050587300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_18
+      name: Ripple_Navigation_Sheet_18
       rect:
         serializedVersion: 2
         x: 768
@@ -696,14 +873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: c35aa6ce125f4ca50800000000000000
+      internalID: 6540622084897940796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_19
+      name: Ripple_Navigation_Sheet_19
       rect:
         serializedVersion: 2
         x: 1024
@@ -717,14 +894,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: d7fdee9721f37dee0800000000000000
+      internalID: -1236450224102252675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_20
+      name: Ripple_Navigation_Sheet_20
       rect:
         serializedVersion: 2
         x: 1280
@@ -738,14 +915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: ff84a5cd4d60d2280800000000000000
+      internalID: -9066582963527202561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_21
+      name: Ripple_Navigation_Sheet_21
       rect:
         serializedVersion: 2
         x: 1536
@@ -759,14 +936,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 0629051bb6caa7d30800000000000000
+      internalID: 4430042762008629856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_22
+      name: Ripple_Navigation_Sheet_22
       rect:
         serializedVersion: 2
         x: 1792
@@ -780,14 +957,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 2e4bbfcb36c60e820800000000000000
+      internalID: 2945473331928478946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_23
+      name: Ripple_Navigation_Sheet_23
       rect:
         serializedVersion: 2
         x: 0
@@ -801,14 +978,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: d838e21c743cad410800000000000000
+      internalID: 1502728138632627085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_24
+      name: Ripple_Navigation_Sheet_24
       rect:
         serializedVersion: 2
         x: 256
@@ -822,14 +999,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 66dda23e8dc5650d0800000000000000
+      internalID: -3434455579229495962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_25
+      name: Ripple_Navigation_Sheet_25
       rect:
         serializedVersion: 2
         x: 512
@@ -843,14 +1020,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: cb2406f3d92603020800000000000000
+      internalID: 2319462235608466108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_26
+      name: Ripple_Navigation_Sheet_26
       rect:
         serializedVersion: 2
         x: 768
@@ -864,14 +1041,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 76fe498ac7129b940800000000000000
+      internalID: 5312314054748204903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_27
+      name: Ripple_Navigation_Sheet_27
       rect:
         serializedVersion: 2
         x: 1024
@@ -885,14 +1062,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 85cc6b15a825b3b90800000000000000
+      internalID: -7261119220174893992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_28
+      name: Ripple_Navigation_Sheet_28
       rect:
         serializedVersion: 2
         x: 1280
@@ -906,14 +1083,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 6cb400d8231858ed0800000000000000
+      internalID: -2412379971273077818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_29
+      name: Ripple_Navigation_Sheet_29
       rect:
         serializedVersion: 2
         x: 1536
@@ -927,14 +1104,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 36f06ebade9eb8470800000000000000
+      internalID: 8398063137162923875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_30
+      name: Ripple_Navigation_Sheet_30
       rect:
         serializedVersion: 2
         x: 1792
@@ -948,14 +1125,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: ea6f5cd433cdaf760800000000000000
+      internalID: 7492543042990503598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_31
+      name: Ripple_Navigation_Sheet_31
       rect:
         serializedVersion: 2
         x: 0
@@ -969,14 +1146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: ab61f8415e71c9830800000000000000
+      internalID: 4079161635150698170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_32
+      name: Ripple_Navigation_Sheet_32
       rect:
         serializedVersion: 2
         x: 256
@@ -990,14 +1167,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 485fb54755717a5c0800000000000000
+      internalID: -4204366071335225980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_33
+      name: Ripple_Navigation_Sheet_33
       rect:
         serializedVersion: 2
         x: 512
@@ -1011,14 +1188,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: bc094f589c6e0b800800000000000000
+      internalID: 626254101414711499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_34
+      name: Ripple_Navigation_Sheet_34
       rect:
         serializedVersion: 2
         x: 768
@@ -1032,14 +1209,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 0885356fbfa3ed5d0800000000000000
+      internalID: -3035924244957276032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_35
+      name: Ripple_Navigation_Sheet_35
       rect:
         serializedVersion: 2
         x: 1024
@@ -1053,14 +1230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: e3f0f2c91bda9ee10800000000000000
+      internalID: 2227502469052567358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_36
+      name: Ripple_Navigation_Sheet_36
       rect:
         serializedVersion: 2
         x: 1280
@@ -1074,14 +1251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 6e27cc9338ae840e0800000000000000
+      internalID: -2285318961559211290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_37
+      name: Ripple_Navigation_Sheet_37
       rect:
         serializedVersion: 2
         x: 1536
@@ -1095,14 +1272,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: f0d884f108c91ea00800000000000000
+      internalID: 784079884233772303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_38
+      name: Ripple_Navigation_Sheet_38
       rect:
         serializedVersion: 2
         x: 1792
@@ -1116,14 +1293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 72874b6081c1fe7f0800000000000000
+      internalID: -581214937390221273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_39
+      name: Ripple_Navigation_Sheet_39
       rect:
         serializedVersion: 2
         x: 0
@@ -1137,14 +1314,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 4c43bc9f5f6c0a550800000000000000
+      internalID: 6170150249257710788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_40
+      name: Ripple_Navigation_Sheet_40
       rect:
         serializedVersion: 2
         x: 256
@@ -1158,14 +1335,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: b0799076fbbbff5e0800000000000000
+      internalID: -1873572489221007605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_41
+      name: Ripple_Navigation_Sheet_41
       rect:
         serializedVersion: 2
         x: 512
@@ -1179,14 +1356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 47e0efae68d779350800000000000000
+      internalID: 6023421045052935796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_42
+      name: Ripple_Navigation_Sheet_42
       rect:
         serializedVersion: 2
         x: 768
@@ -1200,14 +1377,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: d2beebe1599ba6f90800000000000000
+      internalID: -6959546224030586067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_43
+      name: Ripple_Navigation_Sheet_43
       rect:
         serializedVersion: 2
         x: 1024
@@ -1221,14 +1398,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: a4cbd544f547f5380800000000000000
+      internalID: -8980331179435770806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_44
+      name: Ripple_Navigation_Sheet_44
       rect:
         serializedVersion: 2
         x: 1280
@@ -1242,14 +1419,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: b006a26daedc3c9b0800000000000000
+      internalID: -5060975147735162869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_45
+      name: Ripple_Navigation_Sheet_45
       rect:
         serializedVersion: 2
         x: 1536
@@ -1263,14 +1440,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 38f207519387d0680800000000000000
+      internalID: -8787235111361826941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_46
+      name: Ripple_Navigation_Sheet_46
       rect:
         serializedVersion: 2
         x: 1792
@@ -1284,14 +1461,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: e55e6d7d41aa60f40800000000000000
+      internalID: 5694425785353823582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_47
+      name: Ripple_Navigation_Sheet_47
       rect:
         serializedVersion: 2
         x: 0
@@ -1305,14 +1482,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 907480035b89a85e0800000000000000
+      internalID: -1906543588275632375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_48
+      name: Ripple_Navigation_Sheet_48
       rect:
         serializedVersion: 2
         x: 256
@@ -1326,14 +1503,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: cef0b5410ff3cc4a0800000000000000
+      internalID: -6571807455874183188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_49
+      name: Ripple_Navigation_Sheet_49
       rect:
         serializedVersion: 2
         x: 512
@@ -1347,14 +1524,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 7f8496daa4d6402a0800000000000000
+      internalID: -6772167772154017545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_50
+      name: Ripple_Navigation_Sheet_50
       rect:
         serializedVersion: 2
         x: 768
@@ -1368,14 +1545,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: df0032967b14c76e0800000000000000
+      internalID: -1838522291875282691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_51
+      name: Ripple_Navigation_Sheet_51
       rect:
         serializedVersion: 2
         x: 1024
@@ -1389,14 +1566,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 7790df5a3db45ecf0800000000000000
+      internalID: -223689234089965193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_52
+      name: Ripple_Navigation_Sheet_52
       rect:
         serializedVersion: 2
         x: 1280
@@ -1410,14 +1587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: bd397b91dec6c1a10800000000000000
+      internalID: 1881498509928535003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_53
+      name: Ripple_Navigation_Sheet_53
       rect:
         serializedVersion: 2
         x: 1536
@@ -1431,14 +1608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 715606adfe75ece10800000000000000
+      internalID: 2219808354012783895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_54
+      name: Ripple_Navigation_Sheet_54
       rect:
         serializedVersion: 2
         x: 1792
@@ -1452,14 +1629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: e92fd2c57bb447340800000000000000
+      internalID: 4860593148737221278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_55
+      name: Ripple_Navigation_Sheet_55
       rect:
         serializedVersion: 2
         x: 0
@@ -1473,14 +1650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 0483dadd6cc10d8b0800000000000000
+      internalID: -5129568335126775744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_56
+      name: Ripple_Navigation_Sheet_56
       rect:
         serializedVersion: 2
         x: 256
@@ -1494,14 +1671,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: ade007c1ae719e830800000000000000
+      internalID: 4100835229964439258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_57
+      name: Ripple_Navigation_Sheet_57
       rect:
         serializedVersion: 2
         x: 512
@@ -1515,14 +1692,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 18f04b55ca65ac970800000000000000
+      internalID: 8775922122057060225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RippleSheet_58
+      name: Ripple_Navigation_Sheet_58
       rect:
         serializedVersion: 2
         x: 768
@@ -1536,8 +1713,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 
-      internalID: 0
+      spriteID: 373e606175d674610800000000000000
+      internalID: 1605372012980003699
       vertices: []
       indices: 
       edges: []
