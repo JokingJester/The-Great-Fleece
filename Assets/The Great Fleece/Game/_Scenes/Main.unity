@@ -40390,6 +40390,17 @@ MonoBehaviour:
     message: 'Oliver: I know a sleeping guard when I see one'
   - seconds: 2
     message: 'Oliver: Quick, grab is card'
+  gameover1:
+  - seconds: 0
+    message: 'Oliver: Darren are you there'
+  - seconds: 2
+    message: 'Oliver: Darren!'
+  gameover2:
+  - seconds: 0
+    message: 'Oliver: Oh man'
+  - seconds: 1
+    message: 'Oliver: Hang in there Darren, we''ll get you out!'
+  captured: 0
 --- !u!114 &1624011910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42831,6 +42842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _vo1: {fileID: 1087119810}
   _vo2: {fileID: 1283489785}
+  _playSubtitles: {fileID: 1624011909}
 --- !u!1001 &1748910648
 PrefabInstance:
   m_ObjectHideFlags: 0

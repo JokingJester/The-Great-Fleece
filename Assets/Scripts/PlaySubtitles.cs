@@ -8,13 +8,13 @@ public class PlaySubtitles : MonoBehaviour
     public SubtitleAttributes[] coin;
     public SubtitleAttributes[] cameraDialogue;
     public SubtitleAttributes[] keycardDialogue;
+    public SubtitleAttributes[] gameover1;
+    public SubtitleAttributes[] gameover2;
+
+    public bool captured;
     public void Start()
     {
         StartCoroutine(PlaySubtitle(1));
-    }
-    private void Update()
-    {
-        
     }
     public IEnumerator PlaySubtitle(int number)
     {
@@ -41,7 +41,17 @@ public class PlaySubtitles : MonoBehaviour
             case 2:
                 foreach (var attribute in coin)
                 {
+                    if (captured == true)
+                    {
+                        UIManager.Instance.DisableSubtitle();
+                        yield break;
+                    }
                     yield return new WaitForSeconds(attribute.seconds);
+                    if (captured == true)
+                    {
+                        UIManager.Instance.DisableSubtitle();
+                        yield break;
+                    }
                     UIManager.Instance.DisplaySubtitleText(attribute.message);
                 }
                 yield return new WaitForSeconds(5);
@@ -51,7 +61,17 @@ public class PlaySubtitles : MonoBehaviour
             case 3:
                 foreach (var attribute in cameraDialogue)
                 {
+                    if (captured == true)
+                    {
+                        UIManager.Instance.DisableSubtitle();
+                        yield break;
+                    }
                     yield return new WaitForSeconds(attribute.seconds);
+                    if (captured == true)
+                    {
+                        UIManager.Instance.DisableSubtitle();
+                        yield break;
+                    }
                     UIManager.Instance.DisplaySubtitleText(attribute.message);
                 }
                 yield return new WaitForSeconds(3);
@@ -61,10 +81,40 @@ public class PlaySubtitles : MonoBehaviour
             case 4:
                 foreach (var attribute in keycardDialogue)
                 {
+                    if (captured == true)
+                    {
+                        UIManager.Instance.DisableSubtitle();
+                        yield break;
+                    }
                     yield return new WaitForSeconds(attribute.seconds);
+                    if (captured == true)
+                    {
+                        UIManager.Instance.DisableSubtitle();
+                        yield break;
+                    }
                     UIManager.Instance.DisplaySubtitleText(attribute.message);
                 }
                 yield return new WaitForSeconds(2);
+                UIManager.Instance.DisableSubtitle();
+                break;
+
+            case 5:
+                foreach (var attribute in gameover1)
+                {
+                    yield return new WaitForSeconds(attribute.seconds);
+                    UIManager.Instance.DisplaySubtitleText(attribute.message);
+                }
+                yield return new WaitForSeconds(1.2f);
+                UIManager.Instance.DisableSubtitle();
+                break;
+
+            case 6:
+                foreach (var attribute in gameover2)
+                {
+                    yield return new WaitForSeconds(attribute.seconds);
+                    UIManager.Instance.DisplaySubtitleText(attribute.message);
+                }
+                yield return new WaitForSeconds(3.5f);
                 UIManager.Instance.DisableSubtitle();
                 break;
         }
