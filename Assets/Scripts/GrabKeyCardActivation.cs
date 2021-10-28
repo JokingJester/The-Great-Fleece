@@ -12,13 +12,6 @@ public class GrabKeyCardActivation : MonoBehaviour
             Destroy(GetComponent<BoxCollider>());
             GameManager.Instance.HasCard = true;
             _cutscene.SetActive(true);
-            StartCoroutine(DisableCutsceneRoutine());
         }
-    }
-
-    IEnumerator DisableCutsceneRoutine()
-    {
-        yield return new WaitForSeconds(6f);
-        _cutscene.SetActive(false);
     }
 }
